@@ -21,3 +21,17 @@
   - If sum > target → right--  
 - **Rules:** `while (l < r)`, O(1) space
 - **Pitfall:** cannot apply when array is unsorted
+
+## 📌 Day 2 — Summary
+
+### **1. Maximum Average Subarray I (Sliding Window - fix size)**
+- **Pattern:** Sliding Window with fix size
+- **When:** Continuous subarray with fix size
+- **Core Idea:**
+  - Build initial window
+  - Slide the window: `sum += nums[right] - nums[left]`
+- **Rules:** 
+  - Window size is fix
+- **Pitfall:**
+  - Forgot init window
+  - Forgot remove element outside window

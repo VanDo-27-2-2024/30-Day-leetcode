@@ -11,8 +11,6 @@
   - Early return when found  
 - **Pitfall:** two-pass map overwrites index for duplicates
 
----
-
 ### **2. Two Sum II (Two Pointers)**
 - **Pattern:** Two pointers (sorted array)
 - **When:** array *sorted*
@@ -21,6 +19,8 @@
   - If sum > target → right--  
 - **Rules:** `while (l < r)`, O(1) space
 - **Pitfall:** cannot apply when array is unsorted
+
+---
 
 ## 📌 Day 2 — Summary
 

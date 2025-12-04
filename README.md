@@ -62,3 +62,17 @@
   - If either side conflicts → return false
 - **Pitfall:**
   - Only checking one direction (s→t) → allows invalid cases like "ab" → "aa"
+
+## 📌 Day 4 — Summary
+
+### **1. Is Palindrome (2 pointer)**
+- **Expext resutl:** O(n) time complexity and O(1) space complexity
+- **Pattern:** 2 pointer
+- **When:** Check the same backward and forward
+- **Core Idea:**
+  - Use two pointers (left, right), skip non-alphanumeric characters,  
+    and compare lowercase characters while moving two pointers inward
+- **Rules:** 
+  - Ignore non-alphanumeric characters
+- **Pitfall:**
+  - Use map to store clean input leads to O(n) space complexity
